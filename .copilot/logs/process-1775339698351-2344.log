@@ -1,0 +1,65 @@
+2026-04-04T21:54:58.870Z [INFO] Workspace initialized: a41eab92-f028-4aee-a375-8a07d32a5105 (checkpoints: 0)
+2026-04-04T21:54:58.972Z [INFO] Starting Copilot CLI: 1.0.14
+2026-04-04T21:54:58.972Z [INFO] Node.js version: v24.11.1
+2026-04-04T21:54:59.714Z [ERROR] Request to MCP registry policy at https://api.github.com/copilot/mcp_registry failed with status 404 (request ID: 2000:2015F4:8DD616C:904D8D9:69D188B2), body: {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2026-04-04T21:54:59.714Z [WARNING] Failed to fetch MCP registry policy: GitHubApiError: Failed to fetch MCP registry policy: 404 . Non-default MCP servers will be blocked until the policy can be fetched.
+2026-04-04T21:54:59.721Z [ERROR] Starting remote MCP client for github-mcp-server with url: https://api.individual.githubcopilot.com/mcp/readonly
+2026-04-04T21:54:59.721Z [ERROR] Creating MCP client for github-mcp-server...
+2026-04-04T21:54:59.722Z [ERROR] Connecting MCP client for github-mcp-server...
+2026-04-04T21:55:00.057Z [ERROR] MCP client for github-mcp-server connected, took 335ms
+2026-04-04T21:55:00.058Z [ERROR] Started MCP client for remote server github-mcp-server
+2026-04-04T21:55:00.058Z [ERROR] GitHub MCP server configured after authentication
+2026-04-04T21:55:00.851Z [INFO] Memory enablement check: disabled
+2026-04-04T21:55:00.851Z [INFO] Memory is not enabled; skipping memory tools.
+2026-04-04T21:55:00.854Z [INFO] Memory enablement check: disabled
+2026-04-04T21:55:00.855Z [INFO] Memory is not enabled; skipping memory tools.
+2026-04-04T21:55:01.179Z [INFO] Memory enablement check: disabled
+2026-04-04T21:55:01.179Z [INFO] Memory is not enabled; skipping memory tools.
+2026-04-04T21:55:01.180Z [INFO]  
+2026-04-04T21:55:01.180Z [INFO] --- Start of group: configured settings: ---
+2026-04-04T21:55:01.180Z [INFO] --- End of group ---
+2026-04-04T21:55:01.433Z [ERROR] Request to GitHub API at https://api.individual.githubcopilot.com/agents/swe/internal/memory/v0/jennileng/littleshrimp/prompt failed with status 404 (request ID: 2001:2A16BE:6749E7:88A3F9:69D188B5), body: Resource not found
+
+2026-04-04T21:55:01.434Z [ERROR] Failed to fetch memory prompt: HTTP 404: Resource not found
+ (url=https://api.individual.githubcopilot.com/agents/swe/internal/memory/v0/jennileng/littleshrimp/prompt, integrationId=copilot-developer-cli)
+2026-04-04T21:55:01.441Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-04-04T21:55:01.441Z [INFO] --- End of group ---
+2026-04-04T21:55:02.024Z [INFO] CompactionProcessor: Utilization 20.9% (26731/128000 tokens) below threshold 80%
+2026-04-04T21:55:02.156Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-04T21:55:07.110Z [INFO] --- End of group ---
+2026-04-04T21:55:07.776Z [INFO] CompactionProcessor: Utilization 24.9% (31854/128000 tokens) below threshold 80%
+2026-04-04T21:55:07.939Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-04T21:55:10.051Z [INFO] --- End of group ---
+2026-04-04T21:55:10.148Z [INFO] CompactionProcessor: Utilization 25.0% (31953/128000 tokens) below threshold 80%
+2026-04-04T21:55:10.316Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-04T21:55:12.137Z [INFO] --- End of group ---
+2026-04-04T21:55:12.227Z [INFO] CompactionProcessor: Utilization 25.0% (32043/128000 tokens) below threshold 80%
+2026-04-04T21:55:12.393Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-04T21:55:15.698Z [INFO] --- End of group ---
+2026-04-04T21:55:16.301Z [INFO] CompactionProcessor: Utilization 25.5% (32657/128000 tokens) below threshold 80%
+2026-04-04T21:55:16.476Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-04T21:55:19.047Z [INFO] --- End of group ---
+2026-04-04T21:55:19.651Z [INFO] CompactionProcessor: Utilization 25.6% (32789/128000 tokens) below threshold 80%
+2026-04-04T21:55:19.823Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-04T21:55:23.446Z [INFO] --- End of group ---
+2026-04-04T21:55:24.047Z [INFO] CompactionProcessor: Utilization 25.7% (32907/128000 tokens) below threshold 80%
+2026-04-04T21:55:24.221Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-04T21:55:26.310Z [INFO] --- End of group ---
+2026-04-04T21:55:26.399Z [INFO] CompactionProcessor: Utilization 25.8% (32987/128000 tokens) below threshold 80%
+2026-04-04T21:55:26.567Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-04T21:55:28.936Z [INFO] --- End of group ---
+2026-04-04T21:55:29.537Z [INFO] CompactionProcessor: Utilization 25.9% (33174/128000 tokens) below threshold 80%
+2026-04-04T21:55:29.714Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-04T21:55:32.551Z [INFO] --- End of group ---
+2026-04-04T21:55:33.150Z [INFO] CompactionProcessor: Utilization 26.1% (33410/128000 tokens) below threshold 80%
+2026-04-04T21:55:33.326Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-04T21:55:35.814Z [INFO] --- End of group ---
+2026-04-04T21:55:36.526Z [INFO] CompactionProcessor: Utilization 29.6% (37894/128000 tokens) below threshold 80%
+2026-04-04T21:55:36.723Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-04T21:55:40.669Z [INFO] --- End of group ---
+2026-04-04T21:55:41.283Z [INFO] CompactionProcessor: Utilization 29.8% (38180/128000 tokens) below threshold 80%
+2026-04-04T21:55:41.481Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-04T21:55:51.650Z [INFO] --- End of group ---
+2026-04-04T21:55:52.267Z [INFO] CompactionProcessor: Utilization 30.5% (39051/128000 tokens) below threshold 80%
+2026-04-04T21:55:52.475Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-04T21:55:55.865Z [INFO] --- End of group ---
