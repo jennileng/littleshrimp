@@ -214,3 +214,16 @@ Can you see why it fails
 
 
 ---
+
+### Comment by @jennileng at 2026-04-04 23:01:14.000 UTC
+
+<!-- telegram-meta: {"chat_id":8028742346,"msg_id":21,"user_id":8028742346,"username":null,"chat_type":"private","ts":"2026-04-04T23:01:12.000Z"} -->
+
+**來自：** J Leng · private
+
+---
+
+What skills do you have
+
+
+---
