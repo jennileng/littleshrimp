@@ -391,3 +391,16 @@ What skills do you have
 
 
 ---
+
+### Comment by @jennileng at 2026-04-08 06:47:53.000 UTC
+
+<!-- telegram-meta: {"chat_id":8028742346,"msg_id":34,"user_id":8028742346,"username":null,"chat_type":"private","ts":"2026-04-08T06:47:51.000Z"} -->
+
+**來自：** J Leng · private
+
+---
+
+I want you to do research how to become software engineer what intern what skills to have
+
+
+---
