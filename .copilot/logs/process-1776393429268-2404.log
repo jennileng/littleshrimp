@@ -1,0 +1,35 @@
+2026-04-17T02:37:09.818Z [INFO] Workspace initialized: a41eab92-f028-4aee-a375-8a07d32a5105 (checkpoints: 0)
+2026-04-17T02:37:09.839Z [INFO] Starting Copilot CLI: 1.0.14
+2026-04-17T02:37:09.839Z [INFO] Node.js version: v24.11.1
+2026-04-17T02:37:10.664Z [ERROR] Request to MCP registry policy at https://api.github.com/copilot/mcp_registry failed with status 404 (request ID: 1800:1939B4:507A39:51A776:69E19CD5), body: {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2026-04-17T02:37:10.664Z [WARNING] Failed to fetch MCP registry policy: GitHubApiError: Failed to fetch MCP registry policy: 404 . Non-default MCP servers will be blocked until the policy can be fetched.
+2026-04-17T02:37:10.670Z [ERROR] Starting remote MCP client for github-mcp-server with url: https://api.individual.githubcopilot.com/mcp/readonly
+2026-04-17T02:37:10.670Z [ERROR] Creating MCP client for github-mcp-server...
+2026-04-17T02:37:10.671Z [ERROR] Connecting MCP client for github-mcp-server...
+2026-04-17T02:37:11.160Z [ERROR] MCP client for github-mcp-server connected, took 489ms
+2026-04-17T02:37:11.161Z [ERROR] Started MCP client for remote server github-mcp-server
+2026-04-17T02:37:11.161Z [ERROR] GitHub MCP server configured after authentication
+2026-04-17T02:37:12.098Z [INFO] Memory enablement check: disabled
+2026-04-17T02:37:12.098Z [INFO] Memory is not enabled; skipping memory tools.
+2026-04-17T02:37:12.162Z [INFO] Memory enablement check: disabled
+2026-04-17T02:37:12.162Z [INFO] Memory is not enabled; skipping memory tools.
+2026-04-17T02:37:12.409Z [INFO] Memory enablement check: disabled
+2026-04-17T02:37:12.409Z [INFO] Memory is not enabled; skipping memory tools.
+2026-04-17T02:37:12.410Z [INFO]  
+2026-04-17T02:37:12.410Z [INFO] --- Start of group: configured settings: ---
+2026-04-17T02:37:12.410Z [INFO] --- End of group ---
+2026-04-17T02:37:12.720Z [ERROR] Request to GitHub API at https://api.individual.githubcopilot.com/agents/swe/internal/memory/v0/jennileng/littleshrimp/prompt failed with status 404 (request ID: 1801:34FD33:5A49D:6AC6A:69E19CD8), body: Resource not found
+
+2026-04-17T02:37:12.720Z [ERROR] Failed to fetch memory prompt: HTTP 404: Resource not found
+ (url=https://api.individual.githubcopilot.com/agents/swe/internal/memory/v0/jennileng/littleshrimp/prompt, integrationId=copilot-developer-cli)
+2026-04-17T02:37:12.727Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-04-17T02:37:12.727Z [INFO] --- End of group ---
+2026-04-17T02:37:13.488Z [INFO] CompactionProcessor: Utilization 64.3% (82292/128000 tokens) below threshold 80%
+2026-04-17T02:37:13.987Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-17T02:37:20.696Z [INFO] --- End of group ---
+2026-04-17T02:37:21.836Z [INFO] CompactionProcessor: Utilization 69.1% (88416/128000 tokens) below threshold 80%
+2026-04-17T02:37:22.340Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-17T02:37:56.153Z [INFO] --- End of group ---
+2026-04-17T02:37:57.053Z [INFO] CompactionProcessor: Utilization 72.6% (92865/128000 tokens) below threshold 80%
+2026-04-17T02:37:57.622Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-17T02:38:03.471Z [INFO] --- End of group ---
